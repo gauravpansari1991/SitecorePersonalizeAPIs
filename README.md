@@ -2,6 +2,10 @@
 
 This script copies experiences and experiments (flow definitions) and decision models (with their variants) from one Personalize tenant, such as dev, to another, such as prod. It uses the public Personalize REST APIs. It needs Node 18 or later and has no dependencies.
 
+We are only copying **experiences and experiments (flow definitions) and decision models (with their variants)** in this code, to copy others you need to go to personalize. 
+In the Personalize UI, use **Copy to tenant** to copy the dependencies: offers, offer templates, connections, decision templates, web templates, conditions and points of sale using these links - https://doc.sitecore.com/personalize/en/users/sitecore-personalize/developer-center/copying-entities-between-tenants.html
+https://developers.sitecore.com/changelog/personalize/18092024/introducing-the-copy-to-tenant-feature-in-sitecore-personalize
+
 ## Setup
 1. Create an API key in **each** tenant (Cloud Portal → Personalize → Developer settings → API keys).
 2. Copy `.env.example` to `.env` and fill in the base URL, client ID and secret for each tenant.
