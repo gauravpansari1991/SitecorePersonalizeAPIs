@@ -1,0 +1,4 @@
+{
+  "_comment": "Rename to id-map.json. Map SOURCE ref -> TARGET ref for items copied with 'Copy to tenant' (offers, connections, templates). The script adds decision model / variant / flow refs automatically.",
+  "11111111-aaaa-bbbb-cccc-000000000001": "22222222-aaaa-bbbb-cccc-000000000001"
+}
